@@ -1,0 +1,16 @@
+TASK MANAGER
+
+1. Client Side 
+    a. ReactJS or Vanilla JS 
+
+2. Server Side
+    a. Express JS Server
+        1. app.js in the root 
+        2. public folder -> Assets 
+        3. models -> Schema for MongoDB 
+        4. routes -> defining routes
+        5. middleware -> if and only required 
+
+    b. MongoDB Server
+        1. Creating a db on the website
+        2. monitoring the data on the console
