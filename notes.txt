@@ -7,10 +7,25 @@ TASK MANAGER
     a. Express JS Server
         1. app.js in the root 
         2. public folder -> Assets 
-        3. models -> Schema for MongoDB 
-        4. routes -> defining routes
+        3. routes -> defining routes
+        4. controllers -> define controllers i.e call back functions  for the routes
         5. middleware -> if and only required 
+        6. models -> Schema for MongoDB 
 
     b. MongoDB Server
         1. Creating a db on the website
         2. monitoring the data on the console
+
+=========================================================
+
+ Setting up MongoDB Server:
+ - it is a noSQL, non relational db
+ - it stores the data in JSON formate 
+ - easy to use 
+ - free cloud hosting ie ATLAS
+
+
+GET: /api/v1/tasks /
+POST: /api/v1/tasks /
+GET SINGLE: /api/v1/tasks/:id 
+PUT: /api/v1/tasks/:id
